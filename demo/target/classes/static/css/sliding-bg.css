@@ -1,0 +1,65 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container{
+    height: 140px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide-wrapper {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.slide-wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    transition: all .3s ease;
+    &:hover {
+        background: #bbb;
+    }
+}
+
+.slide {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("https://manybooks.net/sites/default/files/2018-07/bookdisplaysmall.jpg");
+}
+.slide-2 {
+    background-image: url("https://manybooks.net/sites/default/files/2018-07/bookcoverssmall2.jpg");
+}
+.slide-3 {
+    background-image: url("https://manybooks.net/sites/default/files/2018-07/bookstackssmall.jpg");
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sách</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/genre-page.css">
+    <link rel="stylesheet" href="/css/sliding-bg.css">
+</head>
+<body>
+    <nav th:replace="fragments/fragment.html :: navbar-frag"></nav>
+    <main class="container-fluid px-md-4">
+        <div class="slider-container">
+            <div class="slide-wrapper">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+            </div>
+
+            <input id="slide-dot-1" type="radio" name="slides" checked>
+            <div class="slide slide-1"></div>
+
+            <input id="slide-dot-2" type="radio" name="slides">
+            <div class="slide slide-2"></div>
+
+            <input id="slide-dot-3" type="radio" name="slides">
+            <div class="slide slide-3"></div>
+        </div>
+        <div class="genre-container">
+            <h2 class="title">Genres</h2>
+            <div class="row">
+                <div class="genre--item col-xs-12 col-sm-12 col-md-6 col-lg-6" th:each="genre: ${genreList}">
+                    <div class="genre-field">
+                        <span class="genre-content"><a href="#" th:text="${genre.name}"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer th:replace="fragments/fragment.html :: footer-frag"></footer>
+</body>
+</html>

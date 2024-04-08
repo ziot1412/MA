@@ -1,0 +1,16 @@
+.genre-container {
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #616161;
+    line-height: 1.28;
+}
+
+.genre-content a {
+    color: #17a288;
+    text-decoration: none;
+}
+
