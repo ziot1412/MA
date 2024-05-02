@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Aibo",
+    "artist": "Gorgeous Mushroom",
+    "image": "https://pbs.twimg.com/media/D96N3sXU0AsWpGj?format=jpg&name=4096x4096",
+    "link": "https://pbs.twimg.com/media/D96N3sXU0AsWpGj?format=jpg&name=4096x4096"
+  },
+  {
+    "name": "Linna",
+    "artist": "Gorgeous Mushroom",
+    "image": "./image/linna.jpg",
+    "link": "https://pbs.twimg.com/media/GIsR-UObEAA3zVo?format=jpg&name=4096x4096"
+  }
+]

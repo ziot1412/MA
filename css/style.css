@@ -1,0 +1,63 @@
+.img-background {
+  position: relative;
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.img-thumbnail {
+  object-fit: scale-down;
+}
+
+.quote {
+  position: absolute;
+  font-family: Comic Sans MS, cursive;
+  top: 55%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 15px 0 16px;
+  margin-top: -28px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.book-cover {
+  height: 280px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.book-title p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.book-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.volume-name {
+  font-style: italic;
+}
+
+/* character */
+.character-cover {
+  height: 410px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}

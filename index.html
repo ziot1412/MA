@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản Lý Sách</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="script/fetchData.js"></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav id="navbar-frag" class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">M-A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mở rộng
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Thể loại</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://docs.google.com/spreadsheets/d/1ZU-2iRfmF-GpO4OIQ5NcLMzotWLESMcRLOIaX-Kc1tQ/edit#gid=0"
+                    >Tất cả</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Nhập ..."
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              value="Submit"
+            >
+              Enter
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid px-md-4">
+      <div class="img-background">
+        <img
+          class="img-fluid img-thumbnail"
+          src="https://rare-gallery.com/mocahbig/426199-anime-boys-anime-girls-Hyouka-Chitanda-Eru-Oreki-Houtarou.jpg"
+        />
+        <div class="quote">
+          <p>I don't like if no one likes me.</p>
+          <p>I wasn't created in this world to entertain everyone.</p>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Senri-GAN</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="senri-gan"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Sadakage</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="sadakage"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Polki</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="polki"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Amagasa Higasa</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="amagasa"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Gorgeous Mushroom</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="gm"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Kesoshirou</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="kesoshirou"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Try</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="try"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Velzhe</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="velzhe"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Dawalixi</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="dawalixi"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Meme50</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="meme50"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Itabira Yasai</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="itabira-yasai"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Hitoi</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="hitoi"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Dramus</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="dramus"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Nylon 100%</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="nylon"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Jack Dempa</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="jack-dempa"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Kuronisiki</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="kuronisiki"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Nanafuton</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="nanafuton"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Liangzi Tai Hongcha</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="lzth"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Kuronomiki</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="kuronomiki"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Rokuichi</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="61"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Minamoto</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="mutton"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Nanao</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="nanao"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Satou Kuuki</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="satou-kuuki"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Narumi Cristear Note</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="ncn"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Throtem</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="throtem"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Urabuko</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="urabuko"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">RK-2</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="rk-2"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Otochichi</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="otochichi"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Aoi Sakura</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="aoi-sakura"></div>
+        </div>
+      </div>
+      <div id="character">
+        <div class="block-header">
+          <h2 class="title">Sky-Freedom</h2>
+        </div>
+        <div class="block-content">
+          <div class="row" id="sky-freedom"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="block-header">
+          <h2 class="title">Tổng hợp sách</h2>
+          <a
+            href="https://docs.google.com/spreadsheets/d/1ZU-2iRfmF-GpO4OIQ5NcLMzotWLESMcRLOIaX-Kc1tQ/edit#gid=0"
+            >( Xem tất cả )</a
+          >
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 field--item">
+          <div class="field">
+            <img
+              loading="lazy"
+              src="./image/Untitled-1.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="field">
+            <div class="form-group--name">
+              <span>Chuyển kênh</span>
+              <a href="book.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer-frag" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Thông tin</h5>
+            <p>Nickname: Houtar0u</p>
+            <p>Email: magicianofthesilversky98@gmail.com</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Link nhanh</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Lên đầu trang</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              <i class="fas fa-heart text-danger"></i> by
+              <a
+                href="https://truongvhfx20894.github.io/ASM3.github.io/"
+                target="_blank"
+                >Vương Hữu Trường</a
+              >
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

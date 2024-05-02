@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản Lý Sách</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="script/fetchProfile.js"></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav id="navbar-frag" class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#">M-A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mở rộng
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Thể loại</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://docs.google.com/spreadsheets/d/1ZU-2iRfmF-GpO4OIQ5NcLMzotWLESMcRLOIaX-Kc1tQ/edit#gid=0"
+                    >Tất cả</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Viết gì đó để tìm kiếm ..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Đăng nhập</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Đăng ký</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid px-md-4">
+      <div class="main-header">
+        <h2 class="main-title text-center">Teams</h2>
+      </div>
+      <div id="main-content"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer-frag" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Thông tin</h5>
+            <p>Nickname: Houtar0u</p>
+            <p>Email: magicianofthesilversky98@gmail.com</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Link nhanh</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Lên đầu trang</a></li>
+              <li><a href="https://www.suruga-ya.jp/">Surugaya</a></li>
+              <li><a href="https://www.melonbooks.co.jp/">Melonbook</a></li>
+              <li><a href="https://www.animate.co.jp/">Animate</a></li>
+              <li><a href="https://www.gamers.co.jp/">Gamers</a></li>
+              <li><a href="https://www.toranoana.jp/">Toranoana</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              <i class="fas fa-heart text-danger"></i> by
+              <a
+                href="https://truongvhfx20894.github.io/ASM3.github.io/"
+                target="_blank"
+                >Vương Hữu Trường</a
+              >
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
