@@ -17,8 +17,8 @@ function fetchData(fileName, idSelect) {
 
         const charContent = `
                     <div>
-                        <div class="field character-cover">
-                            <img loading="lazy" src="${character.image}" alt="" class="img-cover img-fluid rounded">
+                        <div class="field character-cover rounded">
+                            <img loading="lazy" src="${character.image}" alt="" class="img-cover img-fluid">
                         </div>
                         <div class="field">
                             <div class="form-group--name">

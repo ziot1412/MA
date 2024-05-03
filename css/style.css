@@ -18,7 +18,6 @@
   padding: 15px 0 16px;
   margin-top: -28px;
   text-decoration: none;
-  font-size: 30px;
   line-height: 1.25;
   color: #fff;
 }
@@ -40,6 +39,7 @@
   object-fit: cover;
   width: 100%;
   height: auto;
+  /* align-items: top; */
 }
 
 .book-name {
@@ -54,10 +54,11 @@
 
 /* character */
 .character-cover {
-  height: 410px;
+  height: 430px;
   width: 100%;
   overflow: hidden;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
+  align-items: start;
 }
