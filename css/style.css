@@ -59,11 +59,13 @@
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
+  align-items: start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1500px) {
   .character-cover {
     align-items: start;
+    height: 580px;
   }
   /* Thêm các quy tắc CSS khác cho màn hình nhỏ ở đây */
 }
