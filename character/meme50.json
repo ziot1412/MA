@@ -12,9 +12,15 @@
     "link": "https://m5.hentaiera.com/019/mn2jryel5v/1.jpg"
   },
   {
-    "name": "Toa",
+    "name": "Sudou Toa",
     "artist": "Meme50",
     "image": "./image/toa.jpg",
     "link": "https://pbs.twimg.com/media/GL04btnaAAAjr54?format=jpg&name=large"
+  },
+  {
+    "name": "Arai Miharu",
+    "artist": "Meme50",
+    "image": "https://pbs.twimg.com/media/GCkh2SObYAAewYi?format=jpg&name=large",
+    "link": "https://pbs.twimg.com/media/GCkh2SObYAAewYi?format=jpg&name=large"
   }
 ]
