@@ -65,5 +65,4 @@ fetchData("./character/urabuko.json", "urabuko");
 fetchData("./character/rk-2.json", "rk-2");
 fetchData("./character/otochichi.json", "otochichi");
 fetchData("./character/skyFreedom.json", "sky-freedom");
-fetchData("./character/aoiSakura.json", "aoi-sakura");
 fetchData("./character/marushin.json", "marushin");
