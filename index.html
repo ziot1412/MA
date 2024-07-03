@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <script src="script/fetchData.js"></script>
+    <script src="script/script.js"></script>
   </head>
   <body>
     <!--NAVBAR-->
@@ -78,12 +79,13 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex" id="myForm">
             <input
               class="form-control me-2"
               type="search"
               placeholder="Nhập ..."
               aria-label="Search"
+              id="myInput"
             />
             <button
               class="btn btn-outline-success"
@@ -97,7 +99,7 @@
       </div>
     </nav>
 
-    <main class="container-fluid px-md-4">
+    <main class="container-fluid px-md-4" id="myMain">
       <div class="img-background">
         <img
           class="img-fluid img-thumbnail"

@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <script src="script/fetchProfile.js"></script>
+    <script src="script/script.js"></script>
   </head>
   <body>
     <!--NAVBAR-->
@@ -83,12 +84,13 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex" id="myForm">
             <input
               class="form-control me-2"
               type="search"
               placeholder="Viết gì đó để tìm kiếm ..."
               aria-label="Search"
+              id="myInput"
             />
             <button class="btn btn-outline-success" type="submit">
               Search
@@ -106,7 +108,7 @@
       </div>
     </nav>
 
-    <main class="container-fluid px-md-4">
+    <main class="container-fluid px-md-4" id="myMain">
       <div class="main-header">
         <h2 class="main-title text-center">Teams</h2>
       </div>
