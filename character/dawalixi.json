@@ -8,7 +8,19 @@
   {
     "name": "Rakshasa's Boss",
     "artist": "Dawalixi",
-    "image": "https://jatftbx.xjsywtlhxzgh.hath.network:23456/h/1ef42f7b91568bdd589372de66bfee76291d4317-772843-1190-1788-jpg/keystamp=1718670900-99d15cdd5e;fileindex=145313709;xres=org/116450054_p0.jpg",
-    "link": "https://jatftbx.xjsywtlhxzgh.hath.network:23456/h/1ef42f7b91568bdd589372de66bfee76291d4317-772843-1190-1788-jpg/keystamp=1718670900-99d15cdd5e;fileindex=145313709;xres=org/116450054_p0.jpg"
+    "image": "./image/boss.jpg",
+    "link": "./image/boss.jpg"
+  },
+  {
+    "name": "S-rank Adventurer",
+    "artist": "Dawalixi",
+    "image": "./image/s-rank.jpg",
+    "link": "./image/s-rank.jpg"
+  },
+  {
+    "name": "Farmer-san",
+    "artist": "Dawalixi",
+    "image": "./image/farmer.jpg",
+    "link": "./image/farmer.jpg"
   }
 ]
