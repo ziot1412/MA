@@ -58,13 +58,14 @@ html {
   width: 100%;
 }
 
-.form-group--name a {
+.form-group--name span a {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   max-width: 100%;
+  max-height: 50%;
 }
 
 .field--item {

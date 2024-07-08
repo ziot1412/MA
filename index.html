@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <script src="script/fetchData.js"></script>
-    <script src="script/script.js"></script>
+    <!-- <script src="script/script.js"></script> -->
   </head>
   <body>
     <!--NAVBAR-->
@@ -356,6 +356,55 @@
         </div>
         <div class="block-content">
           <div class="row" id="alp"></div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="characterModal"
+        tabindex="-1"
+        aria-labelledby="characterModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="characterModalLabel">
+                Character Details
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <div class="field">
+                    <img
+                      loading="lazy"
+                      src=""
+                      alt=""
+                      class="img-cover img-fluid rounded"
+                      id="characterImage"
+                    />
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-group--name">
+                    <h5 id="characterName"></h5>
+                  </div>
+                  <div class="form-group--name character-detail-list">
+                    <p id="characterArtist"></p>
+                    <p id="characterDescription"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

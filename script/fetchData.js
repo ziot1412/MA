@@ -22,18 +22,39 @@ function fetchData(fileName, idSelect) {
                         </div>
                         <div class="field">
                             <div class="form-group--name">
-                                <span>${character.name}</span>
-                                <a href="${character.link}"></a>
+                                <span>${character.name}<a href="${character.link}"></a></span>
                             </div>
                         </div>
                     </div>
                 `;
+        const buttonContent = `
+          <div class="d-flex justify-content-center mt-2">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#characterModal"
+              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.description}', '${character.artist}')">
+              Details
+            </button>
+          </div>
+        `;
+        charItem.innerHTML = charContent + buttonContent;
 
-        charItem.innerHTML = charContent;
         charList.appendChild(charItem);
       });
     })
     .catch((error) => console.error("Error fetching data:", error));
+}
+
+function fillCharacterModal(name, image, description, artist) {
+  const modalTitle = document.getElementById("characterModalLabel");
+  const modalImage = document.getElementById("characterImage");
+  const modalName = document.getElementById("characterName");
+  const modalDescription = document.getElementById("characterDescription");
+  const modalArtist = document.getElementById("characterArtist");
+
+  modalTitle.textContent = name + "'s Details";
+  modalImage.src = image;
+  modalName.textContent = name;
+  modalDescription.innerHTML = "<strong>Description: </strong>" + description;
+  modalArtist.innerHTML = "<strong>Artist: </strong>" + artist;
 }
 
 fetchData("./character/senriGan.json", "senri-gan");
