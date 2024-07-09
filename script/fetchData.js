@@ -30,7 +30,7 @@ function fetchData(fileName, idSelect) {
         const buttonContent = `
           <div class="d-flex justify-content-center mt-2">
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#characterModal"
-              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.description}', '${character.artist}')">
+              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.description}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.tribe}')">
               Details
             </button>
           </div>
@@ -43,18 +43,43 @@ function fetchData(fileName, idSelect) {
     .catch((error) => console.error("Error fetching data:", error));
 }
 
-function fillCharacterModal(name, image, description, artist) {
+function fillCharacterModal(
+  name,
+  image,
+  description,
+  artist,
+  realName,
+  series,
+  age,
+  tribe
+) {
   const modalTitle = document.getElementById("characterModalLabel");
   const modalImage = document.getElementById("characterImage");
   const modalName = document.getElementById("characterName");
   const modalDescription = document.getElementById("characterDescription");
   const modalArtist = document.getElementById("characterArtist");
+  const modalRealName = document.getElementById("characterRealName");
+  const modalAge = document.getElementById("characterAge");
+  const modalTribe = document.getElementById("characterTribe");
+  const modalSeries = document.getElementById("characterSeries");
 
   modalTitle.textContent = name + "'s Details";
   modalImage.src = image;
   modalName.textContent = name;
-  modalDescription.innerHTML = "<strong>Description: </strong>" + description;
   modalArtist.innerHTML = "<strong>Artist: </strong>" + artist;
+  modalTribe.innerHTML = "<strong>Tribe: </strong>" + tribe;
+  if (description != "undefined") {
+    modalDescription.innerHTML = "<strong>Description: </strong>" + description;
+  } else modalDescription.innerHTML = "";
+  if (realName != "undefined") {
+    modalRealName.innerHTML = "<strong>Real name: </strong>" + realName;
+  } else modalRealName.innerHTML = "";
+  if (series != "undefined") {
+    modalSeries.innerHTML = "<strong>Series: </strong>" + series;
+  } else modalSeries.innerHTML = "";
+  if (age != "undefined") {
+    modalAge.innerHTML = "<strong>Age: </strong>" + age;
+  } else modalAge.innerHTML = "";
 }
 
 fetchData("./character/senriGan.json", "senri-gan");

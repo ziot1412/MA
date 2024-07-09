@@ -3,6 +3,7 @@
     "name": "Miyoshi",
     "artist": "Alp",
     "image": "./image/miyoshi.jpg",
-    "link": "./image/miyoshi.jpg"
+    "link": "./image/miyoshi.jpg",
+    "tribe": "Human"
   }
 ]

@@ -1,50 +1,82 @@
 [
   {
-    "name": "Haruno 'Nadeshiko' Nadeshiko",
+    "name": "Nadeshiko",
+    "realName": "Haruno Nadeshiko",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GIX08i6aQAAiRYx?format=jpg&name=large",
-    "link": "https://pbs.twimg.com/media/GIX08i6aQAAiRYx?format=jpg&name=large"
+    "link": "https://pbs.twimg.com/media/GIX08i6aQAAiRYx?format=jpg&name=large",
+    "age": "34",
+    "tribe": "Bani",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Shino 'Mizuki' Mizuki",
+    "name": "Mizuki",
+    "realName": "Shino Mizuki",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/F7GsaPtbcAAwn-s?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/F7GsaPtbcAAwn-s?format=jpg&name=4096x4096"
+    "link": "https://pbs.twimg.com/media/F7GsaPtbcAAwn-s?format=jpg&name=4096x4096",
+    "age": "32",
+    "tribe": "Bani",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Kanna 'Celica' Serika",
+    "name": "Celica",
+    "realName": "Kanne Serika",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GLwMXc4aEAAs1mr?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/GLwMXc4aEAAs1mr?format=jpg&name=4096x4096"
+    "link": "https://pbs.twimg.com/media/GLwMXc4aEAAs1mr?format=jpg&name=4096x4096",
+    "age": "26",
+    "tribe": "Bani",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Tsukishiro 'Sumire' Violet",
+    "name": "Sumire",
+    "realName": "Tsukishiro Violet",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GMAYxcnbQAAYPui?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/GMAYxcnbQAAYPui?format=jpg&name=4096x4096"
+    "link": "https://pbs.twimg.com/media/GMAYxcnbQAAYPui?format=jpg&name=4096x4096",
+    "age": "27",
+    "tribe": "Bani",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Reika 'Tomeko Ushiyama' Hojoin",
+    "name": "Tomeko Ushiyama",
+    "realName": "Reika Hojoin",
     "artist": "Senri-GAN",
     "image": "./image/tomeko.jpg",
-    "link": "https://m9.hentaiera.com/027/uezysg7ndl/13.jpg"
+    "link": "./image/tomeko.jpg",
+    "age": "36",
+    "tribe": "Ushi",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Chizuru 'Paina' Saionji",
+    "name": "Paina",
+    "realName": "Chizuru Saionji",
     "artist": "Senri-GAN",
     "image": "./image/paina.jpg",
-    "link": "./image/paina.jpg"
+    "link": "./image/paina.jpg",
+    "age": "37",
+    "tribe": "Ushi",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Mizugami 'Mirage' Mira",
+    "name": "Mirage",
+    "realName": "Mizugami Mira",
     "artist": "Senri-GAN",
     "image": "./image/mirage.jpg",
-    "link": "./image/mirage.jpg"
+    "link": "./image/mirage.jpg",
+    "age": "33",
+    "tribe": "Bani",
+    "series": "Buunystein Fantasy"
   },
   {
-    "name": "Saki 'Aurora' Mikami",
+    "name": "Aurora",
+    "realName": "Saki Mikami",
     "artist": "Senri-GAN",
     "image": "https://m8.hentaiera.com/026/0codue35z1/11.jpg",
-    "link": "https://m8.hentaiera.com/026/0codue35z1/11.jpg"
+    "link": "https://m8.hentaiera.com/026/0codue35z1/11.jpg",
+    "age": "35",
+    "tribe": "Ushi",
+    "series": "Buunystein Fantasy"
   }
 ]

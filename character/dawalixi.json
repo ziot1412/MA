@@ -3,24 +3,28 @@
     "name": "Akimoto Momo",
     "artist": "Dawalixi",
     "image": "https://pbs.twimg.com/media/F5Wwo46bkAAIVtD?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/F5Wwo46bkAAIVtD?format=jpg&name=4096x4096"
+    "link": "https://pbs.twimg.com/media/F5Wwo46bkAAIVtD?format=jpg&name=4096x4096",
+    "tribe": "Human"
   },
   {
     "name": "Rakshasa's Boss",
     "artist": "Dawalixi",
     "image": "./image/boss.jpg",
-    "link": "./image/boss.jpg"
+    "link": "./image/boss.jpg",
+    "tribe": "Human"
   },
   {
     "name": "S-rank Adventurer",
     "artist": "Dawalixi",
     "image": "./image/s-rank.jpg",
-    "link": "./image/s-rank.jpg"
+    "link": "./image/s-rank.jpg",
+    "tribe": "Human"
   },
   {
     "name": "Farmer-san",
     "artist": "Dawalixi",
     "image": "./image/farmer.jpg",
-    "link": "./image/farmer.jpg"
+    "link": "./image/farmer.jpg",
+    "tribe": "Human"
   }
 ]
