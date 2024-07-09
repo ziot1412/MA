@@ -4,6 +4,7 @@
     "artist": "Kuronomiki",
     "image": "./image/kasumi.jpg",
     "link": "https://c5.kemono.su/data/18/54/1854ce7f712750100d00b0880ed3f645a1a3de6e14777afffb895630c4dd7e35.jpg?f=c16570de-d6c1-44d2-a1a2-f02e831a74e0.jpg",
+    "series": "Takamine-ke no Nirinka",
     "tribe": "Human"
   },
   {
@@ -11,6 +12,8 @@
     "artist": "Kuronomiki",
     "image": "./image/ayame.jpg",
     "link": "https://img3.gelbooru.com/images/03/e9/03e969ef16bd131d8c9fc54b3798944b.jpeg",
+    "age": "20",
+    "series": "Takamine-ke no Nirinka",
     "tribe": "Human"
   },
   {
@@ -18,6 +21,8 @@
     "artist": "Kuronomiki",
     "image": "./image/sayuri.jpg",
     "link": "https://img3.gelbooru.com/images/03/e9/03e969ef16bd131d8c9fc54b3798944b.jpeg",
+    "age": "18",
+    "series": "Takamine-ke no Nirinka",
     "tribe": "Human"
   }
 ]

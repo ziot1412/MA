@@ -4,6 +4,8 @@
     "artist": "Meme50",
     "image": "https://pbs.twimg.com/media/FuMcYavaEAA-fiW?format=jpg&name=large",
     "link": "https://pbs.twimg.com/media/FuMcYavaEAA-fiW?format=jpg&name=large",
+    "age": "16",
+    "series": "Zubopuri",
     "tribe": "Human"
   },
   {
@@ -11,20 +13,27 @@
     "artist": "Meme50",
     "image": "https://pbs.twimg.com/media/D-UBGUaU4AUVK2o?format=jpg&name=medium",
     "link": "https://pbs.twimg.com/media/D-UBGUaU4AUVK2o?format=jpg&name=medium",
+    "series": "Hitozuma Haramu",
     "tribe": "Human"
   },
   {
-    "name": "Sudou Toa",
+    "name": "Toa",
+    "realName": "Sudou Toa",
     "artist": "Meme50",
     "image": "./image/toa.jpg",
     "link": "https://pbs.twimg.com/media/GL04btnaAAAjr54?format=jpg&name=large",
+    "age": "16",
+    "series": "Okane Daisuki",
     "tribe": "Human"
   },
   {
-    "name": "Arai Miharu",
+    "name": "Haru",
+    "realName": "Arai Miharu",
     "artist": "Meme50",
     "image": "https://pbs.twimg.com/media/GCkh2SObYAAewYi?format=jpg&name=large",
     "link": "https://pbs.twimg.com/media/GCkh2SObYAAewYi?format=jpg&name=large",
+    "age": "16",
+    "series": "Miharu no Hajimete",
     "tribe": "Human"
   },
   {
@@ -32,6 +41,8 @@
     "artist": "Meme50",
     "image": "https://m3.hentairox.com/010/pjqg6u71ew/1.jpg",
     "link": "https://m3.hentairox.com/010/pjqg6u71ew/1.jpg",
+    "age": "40",
+    "series": "Smile Prescure!",
     "tribe": "Human"
   }
 ]

@@ -30,7 +30,7 @@ function fetchData(fileName, idSelect) {
         const buttonContent = `
           <div class="d-flex justify-content-center mt-2">
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#characterModal"
-              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.description}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.tribe}')">
+              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.tribe}')">
               Details
             </button>
           </div>
@@ -43,20 +43,10 @@ function fetchData(fileName, idSelect) {
     .catch((error) => console.error("Error fetching data:", error));
 }
 
-function fillCharacterModal(
-  name,
-  image,
-  description,
-  artist,
-  realName,
-  series,
-  age,
-  tribe
-) {
+function fillCharacterModal(name, image, artist, realName, series, age, tribe) {
   const modalTitle = document.getElementById("characterModalLabel");
   const modalImage = document.getElementById("characterImage");
   const modalName = document.getElementById("characterName");
-  const modalDescription = document.getElementById("characterDescription");
   const modalArtist = document.getElementById("characterArtist");
   const modalRealName = document.getElementById("characterRealName");
   const modalAge = document.getElementById("characterAge");
@@ -68,9 +58,6 @@ function fillCharacterModal(
   modalName.textContent = name;
   modalArtist.innerHTML = "<strong>Artist: </strong>" + artist;
   modalTribe.innerHTML = "<strong>Tribe: </strong>" + tribe;
-  if (description != "undefined") {
-    modalDescription.innerHTML = "<strong>Description: </strong>" + description;
-  } else modalDescription.innerHTML = "";
   if (realName != "undefined") {
     modalRealName.innerHTML = "<strong>Real name: </strong>" + realName;
   } else modalRealName.innerHTML = "";
