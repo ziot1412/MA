@@ -2,8 +2,8 @@
   {
     "name": "Corset Piercing Girl",
     "artist": "Urabuko",
-    "image": "https://img3.gelbooru.com/images/f1/bc/f1bc9329ccdcbcae33c2fc3f263eba3f.png",
-    "link": "https://img3.gelbooru.com/images/f1/bc/f1bc9329ccdcbcae33c2fc3f263eba3f.png",
-    "tribe": "Human"
+    "image": "./image/urabuko.png",
+    "link": "./image/urabuko.png",
+    "race": "Human"
   }
 ]

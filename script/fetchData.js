@@ -30,7 +30,7 @@ function fetchData(fileName, idSelect) {
         const buttonContent = `
           <div class="d-flex justify-content-center mt-2">
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#characterModal"
-              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.tribe}')">
+              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.race}')">
               Details
             </button>
           </div>
@@ -43,7 +43,7 @@ function fetchData(fileName, idSelect) {
     .catch((error) => console.error("Error fetching data:", error));
 }
 
-function fillCharacterModal(name, image, artist, realName, series, age, tribe) {
+function fillCharacterModal(name, image, artist, realName, series, age, race) {
   const modalTitle = document.getElementById("characterModalLabel");
   const modalImage = document.getElementById("characterImage");
   const modalName = document.getElementById("characterName");
@@ -57,7 +57,7 @@ function fillCharacterModal(name, image, artist, realName, series, age, tribe) {
   modalImage.src = image;
   modalName.textContent = name;
   modalArtist.innerHTML = "<strong>Artist: </strong>" + artist;
-  modalTribe.innerHTML = "<strong>Tribe: </strong>" + tribe;
+  modalTribe.innerHTML = "<strong>Race: </strong>" + race;
   if (realName != "undefined") {
     modalRealName.innerHTML = "<strong>Real name: </strong>" + realName;
   } else modalRealName.innerHTML = "";

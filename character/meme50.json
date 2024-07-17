@@ -6,7 +6,7 @@
     "link": "https://pbs.twimg.com/media/FuMcYavaEAA-fiW?format=jpg&name=large",
     "age": "16",
     "series": "Zubopuri",
-    "tribe": "Human"
+    "race": "Human"
   },
   {
     "name": "Mokoko",
@@ -14,7 +14,7 @@
     "image": "https://pbs.twimg.com/media/D-UBGUaU4AUVK2o?format=jpg&name=medium",
     "link": "https://pbs.twimg.com/media/D-UBGUaU4AUVK2o?format=jpg&name=medium",
     "series": "Hitozuma Haramu",
-    "tribe": "Human"
+    "race": "Human"
   },
   {
     "name": "Toa",
@@ -24,7 +24,7 @@
     "link": "https://pbs.twimg.com/media/GL04btnaAAAjr54?format=jpg&name=large",
     "age": "16",
     "series": "Okane Daisuki",
-    "tribe": "Human"
+    "race": "Human"
   },
   {
     "name": "Haru",
@@ -34,7 +34,7 @@
     "link": "https://pbs.twimg.com/media/GCkh2SObYAAewYi?format=jpg&name=large",
     "age": "16",
     "series": "Miharu no Hajimete",
-    "tribe": "Human"
+    "race": "Human"
   },
   {
     "name": "Ikuyo Hoshizora",
@@ -43,6 +43,6 @@
     "link": "https://m3.hentairox.com/010/pjqg6u71ew/1.jpg",
     "age": "40",
     "series": "Smile Prescure!",
-    "tribe": "Human"
+    "race": "Human"
   }
 ]
