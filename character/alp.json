@@ -2,8 +2,8 @@
   {
     "name": "Miyoshi",
     "artist": "Alp",
-    "image": "./image/miyoshi.jpg",
-    "link": "./image/miyoshi.jpg",
+    "image": "https://pbs.twimg.com/media/GSwjJWEa8AAbl2R?format=jpg&name=large",
+    "link": "https://pbs.twimg.com/media/GSwjJWEa8AAbl2R?format=jpg&name=large",
     "series": "Otaku Tomodachi to no Sex wa Saikou ni Kimochi Ii",
     "race": "Human"
   }
