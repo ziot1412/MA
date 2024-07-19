@@ -2,15 +2,15 @@
   {
     "name": "Shiho Miyamae",
     "artist": "Jack Dempa",
-    "image": "./image/shiho.jpg",
-    "link": "./image/shiho.jpg",
+    "image": "https://pbs.twimg.com/media/GRzJsmbaMAACtqa?format=jpg&name=4096x4096",
+    "link": "https://pbs.twimg.com/media/GRzJsmbaMAACtqa?format=jpg&name=4096x4096",
     "race": "Human"
   },
   {
     "name": "Natsukawa Kurobane",
     "artist": "Jack Dempa",
-    "image": "./image/kurobane.jpg",
-    "link": "https://cc.fantia.jp/uploads/album_image/file/109732/2f9be5f5-46d3-4840-ac54-4265bfd93d50.jpg?Key-Pair-Id=APKAIOCKYZS7WKBB6G7A&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYy5mYW50aWEuanAvdXBsb2Fkcy9hbGJ1bV9pbWFnZS9maWxlLzEwOTczMi8yZjliZTVmNS00NmQzLTQ4NDAtYWM1NC00MjY1YmZkOTNkNTAuanBnIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTc5MzU0fX19XX0_&Signature=Y21nvqm99LSza3X9FdiPrgGcmzmBE1RlXSXarVQQ75d3-i-dZKz8f6ShayeAiaQYu3gruUSYMlAK-WWMTrwfqdmY2BtLAMMIBpls6ADbGgUkkI~Gdnpmt1wxV2LJRjekrJzDh0LfcuN7W0YSjCMDnyOJDcm5DGJp-z6ju~fHEw5bV~y8Zd64j6jBUb9-bBxmyJJMYwbO8OfflssE7h6i2MeEAZ3L8Ns1RgfLHBMR1-P6-8xxxhItvCy4pjX-WWqDsHiIhDdy44AKfL0T~qr0iZ4eisSjks13nGl6j0H37GRs~NbLGiSBfXBk4Ohq7aNpzek63kVXI2MQR9C9hUHz-w__",
+    "image": "https://pbs.twimg.com/media/GQWdFPnasAARDZH?format=jpg&name=4096x4096",
+    "link": "https://pbs.twimg.com/media/GQWdFPnasAARDZH?format=jpg&name=4096x4096",
     "race": "Human"
   },
   {
@@ -25,6 +25,13 @@
     "artist": "Jack Dempa",
     "image": "./image/akari.png",
     "link": "./image/akari.png",
+    "race": "Human"
+  },
+  {
+    "name": "Kisepansu 8",
+    "artist": "Jack Dempa",
+    "image": "https://pbs.twimg.com/media/GS2GVpZboAAH5hM?format=jpg&name=4096x4096",
+    "link": "https://pbs.twimg.com/media/GS2GVpZboAAH5hM?format=jpg&name=4096x4096",
     "race": "Human"
   }
 ]
