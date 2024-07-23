@@ -30,7 +30,7 @@ function fetchData(fileName, idSelect) {
         const buttonContent = `
           <div class="d-flex justify-content-center mt-2">
             <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#characterModal"
-              onclick="fillCharacterModal('${character.name}', '${character.image}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.race}')">
+              onclick="fillCharacterModal('${character.name}', '${character.link}', '${character.artist}', '${character.realName}', '${character.series}', '${character.age}', '${character.race}')">
               Details
             </button>
           </div>
@@ -99,3 +99,4 @@ fetchData("./character/otochichi.json", "otochichi");
 fetchData("./character/skyFreedom.json", "sky-freedom");
 fetchData("./character/ookumaNekosuke.json", "ookuma");
 fetchData("./character/alp.json", "alp");
+fetchData("./character/anteiru.json", "anteiru");

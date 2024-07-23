@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Fujisaki Honami",
+    "artist": "Anteiru",
+    "image": "https://pbs.twimg.com/media/GTAZkGLaIAAGcn4?format=jpg&name=large",
+    "link": "https://pbs.twimg.com/media/GTAZkGLaIAAGcn4?format=jpg&name=large",
+    "age": "24",
+    "race": "Human"
+  },
+  {
+    "name": "Urushima Reika",
+    "artist": "Anteiru",
+    "image": "https://pbs.twimg.com/media/F6YtI6BasAACzNP?format=jpg&name=large",
+    "link": "https://pbs.twimg.com/media/F6YtI6BasAACzNP?format=jpg&name=large",
+    "age": "23",
+    "race": "Human"
+  }
+]
