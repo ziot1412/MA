@@ -95,7 +95,7 @@ fetchData("./character/satouKuuki.json", "satou-kuuki");
 fetchData("./character/ncn.json", "ncn");
 fetchData("./character/throtem.json", "throtem");
 fetchData("./character/urabuko.json", "urabuko");
-fetchData("./character/otochichi.json", "otochichi");
+fetchData("./character/rekaerd.json", "rekaerd");
 fetchData("./character/skyFreedom.json", "sky-freedom");
 fetchData("./character/ookumaNekosuke.json", "ookuma");
 fetchData("./character/alp.json", "alp");

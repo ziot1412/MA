@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Devil girl",
+    "artist": "REKAERD_MAERD",
+    "image": "./image/Untitled-2.jpg",
+    "link": "./image/Untitled_4.png",
+    "race": "Demon"
+  },
+  {
+    "name": "Hot Arrest member",
+    "artist": "REKAERD_MAERD",
+    "image": "https://pbs.twimg.com/media/GRo1sFjbMAIBuuE?format=jpg&name=large",
+    "link": "https://pbs.twimg.com/media/GRo1sFjbMAIBuuE?format=jpg&name=large",
+    "race": "Human"
+  }
+]
