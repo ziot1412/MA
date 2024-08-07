@@ -3,14 +3,14 @@
     "name": "Kisara",
     "artist": "Sadakage",
     "image": "https://m8.hentaiera.com/026/rqeils4tfa/3.jpg",
-    "link": "https://m8.hentaiera.com/026/rqeils4tfa/3.jpg",
+    "link": "./image/sk0450_kisaramaid_c1.png",
     "race": "Human"
   },
   {
     "name": "Arisa",
     "artist": "Sadakage",
     "image": "./image/arisa.jpg",
-    "link": "https://m8.hentaiera.com/026/uib8qgzp9l/133.jpg",
+    "link": "./image/arisa-2.png",
     "race": "Human"
   },
   {
@@ -24,7 +24,7 @@
     "name": "Mitona",
     "artist": "Sadakage",
     "image": "./image/mitona.png",
-    "link": "https://m8.hentaiera.com/026/uib8qgzp9l/5.jpg",
+    "link": "./image/mitona.png",
     "race": "Human"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Liv",
     "artist": "Sadakage",
     "image": "https://pbs.twimg.com/media/GO41XxMboAEs5TB?format=jpg&name=large",
-    "link": "https://pbs.twimg.com/media/GO41XxMboAEs5TB?format=jpg&name=large",
+    "link": "./image/sk0457_liv_d.png",
     "race": "Human"
   }
 ]

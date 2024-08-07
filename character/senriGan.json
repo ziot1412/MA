@@ -4,7 +4,7 @@
     "realName": "Haruno Nadeshiko",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GIX08i6aQAAiRYx?format=jpg&name=large",
-    "link": "https://pbs.twimg.com/media/GIX08i6aQAAiRYx?format=jpg&name=large",
+    "link": "./image/nadeshiko.jpg",
     "age": "34",
     "race": "Bani",
     "series": "Buunystein Fantasy"
@@ -24,7 +24,7 @@
     "realName": "Kanne Serika",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GLwMXc4aEAAs1mr?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/GLwMXc4aEAAs1mr?format=jpg&name=4096x4096",
+    "link": "./image/celica.jpg",
     "age": "26",
     "race": "Bani",
     "series": "Buunystein Fantasy"
@@ -34,7 +34,7 @@
     "realName": "Tsukishiro Violet",
     "artist": "Senri-GAN",
     "image": "https://pbs.twimg.com/media/GMAYxcnbQAAYPui?format=jpg&name=4096x4096",
-    "link": "https://pbs.twimg.com/media/GMAYxcnbQAAYPui?format=jpg&name=4096x4096",
+    "link": "./image/sumire.jpg",
     "age": "27",
     "race": "Bani",
     "series": "Buunystein Fantasy"
